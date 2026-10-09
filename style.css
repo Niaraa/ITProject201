@@ -1,0 +1,66 @@
+
+body {
+    background-image: url("Moving.png");
+    background-size: 100% auto;
+background-repeat: no-repeat;
+background-color: lightblue;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+h1 {
+    color: navy;
+}
+
+h2 {
+    color: darkblue;
+}
+
+form {
+    background-color: white;
+    padding: 25px;
+    width: 450px;
+    margin: 30px auto;
+    border: 2px solid navy;
+    border-radius: 10px;
+}
+
+input, select {
+    padding: 5px;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.password-box {
+    display: inline-flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.password-box input {
+    border: none;
+    width: 145px;
+}
+
+.eye {
+    background: white;
+    color: black;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+input:focus, select:focus {
+    outline: 2px solid red;
+}
